@@ -1,0 +1,119 @@
+body {
+  background-color: #0f0f0f;
+}
+a{
+  text-decoration: none;
+  color: #fafafa;
+}
+
+/* Toggler */
+.toggler {
+  background-color: #0f0f0f;
+  border: none;
+  
+}
+.toggler:hover {
+  background-color: #282828; 
+}
+
+/* Search Box */
+.input-box {
+  background-color: #0f0f0f;
+  border: 1px solid #282828;
+  border-radius: 5em 0 0 5em;
+  height: 2.5em;
+}
+.input-box::placeholder {
+  color: #717171;
+  opacity: 1;
+}
+.search-button {
+  background-color: #282828;
+  border: 1px solid #282828;
+  border-radius:0 5em 5em 0 ;
+  width: 3.5em;
+  margin-right: 1em;
+}
+
+@media screen and (max-width: 575px ) {
+  .search-button{
+    border-radius: 5em;
+  }
+
+}
+
+/* Action Group */
+.user {
+  color: green;
+}
+
+@media screen and (max-width: 585px) {
+  .action-buttons{
+    width: 2em;
+  }
+}
+
+/* Offcanvas */
+.offcanvas{
+  width: 15em !important;
+  background-color: #0f0f0f;
+}
+.offcanvas-top{
+  justify-content: start;
+}
+
+/* Sidebar */
+.sidebar{
+  margin-top: 5em;
+}
+.sidebar-button{
+  width: 5.5em;
+  font-size: 12px;
+}
+.subs{
+  font-size: 10px;
+}
+
+
+/* Suggestions */
+.content-suggestions{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.suggestion-button{
+    border-radius: 0.5em;
+    font-size: 14px;
+    background-color: #242424;
+    color: #fafafa;
+}
+.suggestion-button:hover{
+  background-color: #fafafa;
+}
+.content-suggestions::-webkit-scrollbar {
+    position: fixed;
+}
+
+.content-suggestions::-webkit-scrollbar-track {
+     border-radius: 5px;
+}
+
+/* Content Body */
+.content-body{
+  height: 100%;
+  margin-top: 5em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.card{
+  background-color: #0f0f0f;
+  color: #fafafa;
+}
+.content-body::-webkit-scrollbar {
+    position: fixed;
+    background-color: #282828;
+}
+
+.content-body::-webkit-scrollbar-track {
+     border-radius: 5px;
+}
